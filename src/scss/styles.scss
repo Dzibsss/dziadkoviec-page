@@ -1,31 +1,11 @@
-// Import all of Bootstrap's CSS
+// Import your custom fonts
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-// Required
-@import "bootstrap/scss/functions";
-
-// Default variable overrides
-// $body-bg: #000;
-// $body-color: #111;
+// Import your Bootstrap variable ovverides
 @import "variables.scss";
-// Required
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/variables-dark";
-@import "bootstrap/scss/maps";
-@import "bootstrap/scss/mixins";
-@import "bootstrap/scss/root";
 
-// Optional Bootstrap components here
-@import "bootstrap/scss/reboot";
-@import "bootstrap/scss/type";
-@import "bootstrap/scss/navbar";
-@import "bootstrap/scss/containers";
-@import "bootstrap/scss/buttons";
-@import "bootstrap/scss/forms";
-@import "bootstrap/scss/card";
-@import "bootstrap/scss/grid";
-@import "bootstrap/scss/nav";
-@import "bootstrap/scss/images";
-@import "bootstrap/scss/utilities";
-// My styles
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+// Import you custom CSS
 @import "custom-styles.scss";
