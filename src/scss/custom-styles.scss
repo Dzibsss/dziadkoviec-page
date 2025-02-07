@@ -1,11 +1,18 @@
 .main-title {
-  font-size: 80px;
+  font-size: 15vw;
   font-weight: 700;
   line-height: 0.8;
 }
 
+@include media-breakpoint-up(sm) {
+  .main-title {
+    font-size: 10vw;
+  }
+}
+
 .subtitle {
-  font-size: 24px;
+  font-size: 1.2rem;
+  line-height: 0.8;
 }
 
 .section-title {

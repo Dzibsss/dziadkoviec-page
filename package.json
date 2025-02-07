@@ -6,7 +6,6 @@
   "scripts": {
     "start": "parcel serve src/index.html --public-url / --dist-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
     "@popperjs/core": "^2.11.8",
     "@tailwindcss/postcss": "^4.0.3",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "parcel": "^2.13.3",
     "tailwindcss": "^4.0.3"
   },
