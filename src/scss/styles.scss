@@ -5,7 +5,7 @@
 @import "variables.scss";
 
 // Import all of Bootstrap's CSS
-@import "bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 // Import you custom CSS
 @import "custom-styles.scss";
