@@ -1,10 +1,11 @@
-// Import all of Bootstrap's CSS
-@import "../../node_modules/bootstrap/scss/bootstrap";
 // Import your custom fonts
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 // Import your Bootstrap variable ovverides
 @import "variables.scss";
+
+// Import all of Bootstrap's CSS
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import you custom CSS
 @import "custom-styles.scss";
