@@ -36,21 +36,22 @@ h2 {
   position: relative;
   z-index: 2;
 }
-n .description {
+.description {
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
   text-align: left;
 }
 
 .main-title {
-  font-size: 15vw;
+  font-size: 10vw;
   font-weight: 700;
   line-height: 0.8;
+  text-align: left;
 }
 
 @include media-breakpoint-up(sm) {
   .main-title {
-    font-size: 10vw;
+    font-size: 4vw;
   }
 }
 
