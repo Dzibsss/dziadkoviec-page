@@ -11,6 +11,9 @@ h2 {
   margin-bottom: 2rem;
 }
 
+#home {
+  display: none;
+}
 .hero {
   background-image: url("../img/o-mnie.jpg"); /* zamień na swoją ścieżkę */
   background-size: cover;
@@ -41,7 +44,7 @@ h2 {
 .top-right-element {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 40px;
   z-index: 3;
 }
 
