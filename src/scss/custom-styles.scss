@@ -172,3 +172,46 @@ h2 {
 
 // .img-fluid {
 // }
+
+#contact {
+  width: 100%;
+  background-image: url("../img/contact-photo.jpg");
+  background-size: cover; /* zdjęcie dopasowuje się do sekcji */
+  background-position: center; /* wyśrodkowanie zdjęcia */
+  background-repeat: no-repeat; /* nie powtarzaj zdjęcia */
+  background-attachment: fixed; /* opcjonalnie: efekt parallax przy scrollowaniu */
+  padding: 4rem 0;
+  color: #f5f5dc; /* górny i dolny odstęp */
+  overflow: hidden; /* ważne dla rozmycia */
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3); /* opcjonalne lekkie przyciemnienie */
+  backdrop-filter: blur(8px); /* <--- tutaj rozmycie! */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  z-index: 1;
+}
+#contact .container {
+  position: relative;
+  z-index: 2;
+}
+#contact {
+  position: relative; /* ważne, żeby działało ::before */
+}
+
+/* Dla linków w środku, żeby też były kremowe */
+#contact a {
+  color: #f5f5dc;
+  text-decoration: none; /* opcjonalnie: usuwa podkreślenie */
+}
+
+/* Jeśli chcesz, żeby link zmieniał się po najechaniu (hover) */
+#contact a:hover {
+  color: #fff; /* trochę jaśniejszy kremowy lub biały przy hoverze */
+}
