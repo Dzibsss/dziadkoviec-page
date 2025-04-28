@@ -14,6 +14,10 @@ h2 {
 #home {
   display: none;
 }
+
+#offcanvasNavbarLabel {
+  color: #bfd5d9;
+}
 .hero {
   background-image: url("../img/o-mnie.jpg"); /* zamień na swoją ścieżkę */
   background-size: cover;
@@ -150,6 +154,9 @@ h2 {
   margin: 2rem;
 }
 
+.navbar-right {
+  justify-content: right !important;
+}
 .info {
   text-align: center;
 }
