@@ -161,15 +161,28 @@
         <img src="img/main-photo.jpg" class="img-fluid" alt="Piotr" />
       </div>
     </secion>
-    <div class="container py-4 px-3 mx-auto">
-      <h2 class="section-title">O Mnie</h2>
-      <p class="description">
-        Zajmuję się muzyką odkąd pamiętam. Współpracuję z wieloma artystami w
-        kraju i za granicą. Gram, komponuję, produkuję, aranżuję, edukuję. A to
-        wszystko w moim przytulnym domowym studio. Czasami też na scenie.
-      </p>
-      <img src="img/o-mnie.jpg" class="img-fluid" alt="Piotr" />
-    </div>
+    <section id="about">
+      <div class="container py-4 px-3 mx-auto">
+        <div class="row align-items-center">
+          <!-- Tekst: mobilnie jako pierwszy, desktopowo jako drugi (po prawej) -->
+          <div class="col-12 col-lg-5 order-1 order-lg-2">
+            <h2 class="section-title">O Mnie</h2>
+            <p class="description">
+              Zajmuję się muzyką odkąd pamiętam. Współpracuję z wieloma
+              artystami w kraju i za granicą. Gram, komponuję, produkuję,
+              aranżuję, edukuję. A to wszystko w moim przytulnym domowym studio.
+              Czasami też na scenie.
+            </p>
+          </div>
+
+          <!-- Zdjęcie: mobilnie jako drugi, desktopowo jako pierwszy (po lewej) -->
+          <div class="col-12 col-lg-7 order-2 order-lg-1">
+            <img src="img/main-photo.jpg" class="img-fluid" alt="Piotr" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <secion id="projects">
       <div class="container py-4 px-3 mx-auto">
         <h2 class="section-title">Projekty</h2>
